@@ -94,9 +94,9 @@ class ALPHAGUI:
         
         # WhatsApp contacts
         self.whatsapp_contacts = {
-            "mom": "+9193812345678",     # Replace with real phone numbers
-            "dad": "+917798075540",
-            "rushi": "+918830201383",
+            "mom": "+1234567890",     # Replace with real phone numbers
+            "dad": "++1234567890",
+            "rushi": "++1234567890",
             "sarah": "+1234567890",
             "brother": "+1234567890",
             "sister": "+1234567890",
@@ -1457,3 +1457,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Error starting ALPHA GUI: {e}")
         input("Press Enter to exit...")
+
