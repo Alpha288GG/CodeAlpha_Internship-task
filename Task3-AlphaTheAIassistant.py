@@ -42,7 +42,7 @@ class ALPHAGUI:
         
         # Gemini API Configuration
         try:
-            api_key = os.environ.get("AIzaSyCQSmV6lufRGU3ISXoKb7xn0o5xJG7gUiI")
+            api_key = os.environ.get("pasteYOUR-API key")
             if not api_key:
                 raise ValueError("GEMINI_API_KEY environment variable not set")
             genai.configure(api_key=api_key)
@@ -1457,4 +1457,3 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Error starting ALPHA GUI: {e}")
         input("Press Enter to exit...")
-
